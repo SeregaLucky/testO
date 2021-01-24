@@ -223,3 +223,140 @@ const array16 = [
   { id: 4, name: 'Ania', deposit: 1200 },
   { id: 5, name: 'Ania', withdrawn: 200 },
 ];
+
+//
+//
+//
+//
+/*
+ * 17. Произвести общий подсчет кроме чисел которые идут под четными индексами массива
+ */
+const array17 = [10, 20, 30, 40, 50];
+
+//
+//
+//
+//
+/*
+ * 18. Вернуть массив только положительные числа
+ */
+const array18 = [2, -3, 4, 7, 2, -99, 3, -7];
+
+//
+//
+//
+//
+/*
+ * 19. Вернуть только массив без объекта у которого id === 2
+ */
+const array19 = [
+  { id: 1, name: 'Вася' },
+  { id: 2, name: 'Петя' },
+  { id: 3, name: 'Маша' },
+];
+
+//
+//
+//
+//
+/*
+ * 20. Дан массив с числами. Найдите сумму первых N элементов до первого нуля.Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем первые 3 элемента, так как дальше стоит элемент с числом 0
+ */
+const array20 = [1, 2, 3, 0, 4, 5, 6];
+
+//
+//
+//
+//
+/*
+ * 21. Вернуть массив в котором будут персонажи которые родились с 1850 года и прожили 80 или больше лет
+ */
+const scientist = [
+  {
+    first: 'Albert',
+    last: 'Einstein',
+    year: 1879,
+    passed: 1955,
+  },
+  {
+    first: 'Isaac',
+    last: 'Newton',
+    year: 1643,
+    passed: 1727,
+  },
+  {
+    first: 'Galileo',
+    last: 'Galilei',
+    year: 1564,
+    passed: 1642,
+  },
+  {
+    first: 'Marie',
+    last: 'Curie',
+    year: 1867,
+    passed: 1934,
+  },
+  {
+    first: 'Johannes',
+    last: 'Kepler',
+    year: 1571,
+    passed: 1630,
+  },
+  {
+    first: 'Nicolaus',
+    last: 'Copernicus',
+    year: 1473,
+    passed: 1543,
+  },
+  {
+    first: 'Max',
+    last: 'Planck',
+    year: 1858,
+    passed: 1947,
+  },
+  {
+    first: 'Katherine',
+    last: 'Blodgett',
+    year: 1898,
+    passed: 1979,
+  },
+  {
+    first: 'Ada',
+    last: 'Lovelace',
+    year: 1815,
+    passed: 1852,
+  },
+  {
+    first: 'Sarah E.',
+    last: 'Goode',
+    year: 1855,
+    passed: 1905,
+  },
+  {
+    first: 'Lise',
+    last: 'Meitner',
+    year: 1878,
+    passed: 1968,
+  },
+  {
+    first: 'Hanna',
+    last: 'Hammarström',
+    year: 1829,
+    passed: 1909,
+  },
+];
+
+//
+//
+//
+//
+/*
+ * 22. Пользователь хочет изменить в телефонной книге имя номер друга
+ */
+const array22 = [
+  { id: 1, name: 'Alex', phone: 101 },
+  { id: 2, name: 'Bob', phone: 102 },
+  { id: 3, name: 'Ania', phone: 103 },
+  { id: 4, name: 'Tom', phone: 104 },
+  { id: 5, name: 'Liza', phone: 105 },
+];
